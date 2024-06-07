@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#payslip-tab {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+table{
+width: 100%;
+border-collapse:collapse;
+border: 1px solid black;
+}
+.salary--details table td{line-height:25px;padding-left:15px;
+border: 1px solid black;
+}
+.salary--details table th{background-color:#fbc403; color:#363636;
+border: 1px solid black;
+}
+#toggle-btn {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+.salary--amount table td{line-height:25px;padding-left:15px; border: 1px solid black;}
+.salary--amount table th{background-color:#fbc403; color:#363636; border:1px solid black;}
+        #toggle-btn {
+            cursor: pointer;
+            color: #007bff;
+            text-decoration: underline;
+        }
+.show-payslip-card{
+background:#fff ;
+border-radius: 10px;
+padding: 1.2rem;
+width: 300px;
+height: 150px;
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+transition: all 0.5s ease-in-out;
+position: relative;
+
+}
+.show-payslip-card i{
+color: #fff;
+padding: 1rem;
+height: 60px;
+width: 60px;
+text-align: center;
+border-radius: 50%;
+font-size: 1.5rem;
+background: red;
+}
+.show-payslip-card:hover{
+transform: translateY(-5px);
+}
